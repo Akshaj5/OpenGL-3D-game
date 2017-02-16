@@ -1,0 +1,27 @@
+Controls:
+
+Keyboard:
+1)'Q' to quit the game
+2)'UP' to move ahead
+3)'DOWN' to move back
+4)'RIGHT' to roll right
+5)'LEFT' to roll left
+
+About the game:
+
+1)Move the block to the hole.
+2)Use switches to close the bridge.
+3)Don't be vertical on fragile tile.
+4)Use less moves.
+
+
+Features:
+
+1)No images used anywhere in the game. Everything is create by using shapes in openGL. This ensures the loading of the game is quick and efficient.
+2)Rendered text/numbers without the help of any libraries (only using shapes).
+3)Collision using boxes(not circles), this is a lot more effective when blocks are of uneven size.
+
+
+Note:
+
+All objects are sorted into different layers. Each layer is drawn one at a time. Some layers are more prefered and will be drawn last  whereas others will be drawn earlier (Like the background layer). Within a layer objects are drawn in a lexicographical order. These two together give you the ability to draw complex objects with ease.
